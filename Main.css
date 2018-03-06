@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
+.nav{
+    height: 8px;
+    width: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+    z-index: 999;
+    cursor: pointer;
+}
+.n1{
+    top:55%;
+    background-color: white;
+}
+.n2{
+    top:50%;
+}
+.n3{
+    top:45%;
+}
+.n4{
+    top:40%;
+}
+.nav span{
+    width: 50px;
+    font-family: monospace;
+    font-size: 11px;
+    color: white;
+    text-align: right;
+    position: absolute;
+    left: -60px;
+    display: none;
+}
+.n1 span{
+    display: block;
+}
+#mainImg{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+#bgImgs{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+#bg1,#bg2,#bg3,#bg4{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#bg2,#bg3,#bg4{
+    bottom: 0;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
